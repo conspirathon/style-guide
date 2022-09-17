@@ -1,0 +1,151 @@
+
+
+
+
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+    }
+
+    .lightblue {
+      color: #add8e6;
+    }
+
+    .gray {
+        color: #808080;
+    }
+
+    .ghostwhite {
+        color: #f8f8ff;
+    }
+
+    .sidebar2 {
+      grid-area: sidebar2;
+    }
+
+    .mono {
+        font-family: consolas;
+    }
+
+    .fantasy {
+        font-family: impact;
+    }
+
+    .sans {
+        font-family: helvetica;
+    }
+
+    .h1 {
+        font-weight: 700px;
+        font-size: 26px;
+    }
+
+    .h2 {
+        font-weight: 500px;
+        font-size: 18px;
+    }
+
+    .para {
+        font-weight: 400px;
+        font-size: 14px;
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  
+    .header {
+      grid-area: header;
+      text-align: right;
+      margin-top: 40px;
+    }
+  
+    .footer {
+      grid-area: footer;
+    }
+  
+    .wrapper {
+      background-color: #fff;
+      color: #444;
+    }
+  
+    .wrapper {
+      display: grid;
+      grid-gap: 1em;
+      grid-template-areas:
+       "header"
+       "sidebar"
+       "content"
+       "sidebar2"
+       "footer"
+    }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
+  
+  .sidebar2 {
+    background-color: #ccc;
+    color: #444;
+  }
+
+  .btn {
+    color: #fff;
+  }
+
+  .btn-primary {
+    background-color: #0000ff;
+  }
+
+  .btn-secondary {
+    background-color: #80808080;
+  }
+
+  .btn-success {
+    background-color: #008000;
+  }
+
+  .btn-danger {
+    background-color: #ff0000;
+  }
+
+  .btn-warning {
+    background-color: #ffff00;
+    color: #000;
+  }
+
+  .btn-info {
+    background-color: #008080;
+  }
+
+  .btn-light {
+    background-color:  #f8f8ff;
+    color: #000;
+  }
+
+  .btn-dark {
+    background-color: #000;
+  }
+
+  .btn-link {
+    background-color: #fff;
+    color: #0000ff;
+    text-decoration: underline;
+    border: none;
+}
+  
+
+  
+  
